@@ -16,3 +16,10 @@ https://www.cbr-xml-daily.ru/daily_json.js
  
 Важно продемонстрировать понимание принципов ООП и SOLID.
 Приветствуется использование Angular.
+
+# Команды для страта
+1) mkdir euro-exchange-rate
+2) euro-exchange-rate
+3) git clone https://github.com/AlekseyPriz/euro-exchange-rate.git
+4) npm install
+5) npm run start
