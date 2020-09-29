@@ -1,27 +1,18 @@
 # MaxiBookingTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Необходимо создать страницу, на которой в режиме реального времени
+( периодичность опроса источника 10 сек),
+будет выводиться текущий курс Евро по отношению к российскому рублю.
+ 
+1. Источники для получения курса:
+https://www.cbr-xml-daily.ru/daily_utf8.xml
+и
+https://www.cbr-xml-daily.ru/daily_json.js
+ предполагается, что список может быть расширен.
+ 
+2. Должен быть задан порядок опроса источников.
+3. В случае, если источник недоступен, необходимо переключиться на прием данных с другого источника.
+4. Добавление нового источника с другой структурой ответа должно быть простым, без необходимости переписывать большую часть кода.
+ 
+Важно продемонстрировать понимание принципов ООП и SOLID.
+Приветствуется использование Angular.
